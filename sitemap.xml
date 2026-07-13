@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://triplenfarm.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
 <url><loc>https://triplenfarm.com/knowledge.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://triplenfarm.com/blog/raising-improved-local-chickens.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://triplenfarm.com/blog/azolla-and-bsf.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://triplenfarm.com/blog/solar-irrigation.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://triplenfarm.com/raising-improved-local-chickens.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://triplenfarm.com/azolla-and-bsf.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://triplenfarm.com/solar-irrigation.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

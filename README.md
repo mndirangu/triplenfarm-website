@@ -1,14 +1,21 @@
-# Triple N EcoSmart Farm — Final Production Build v4
+# Triple N EcoSmart Farm — Final Production v6
 
-This is the deployment-ready build for https://triplenfarm.com.
+Production-ready static site for https://triplenfarm.com.
 
-## Key features
-- Fully styled standalone pages: critical CSS, JavaScript and logo are embedded.
-- Mobile-first hardening for Android and iPhone browsers.
-- Product filters, stock status and WhatsApp ordering to +265 998 768 510.
-- Interactive circular-farming explanation.
-- Knowledge centre, SEO metadata, structured data, sitemap and robots.txt.
-- Accurate sustainability language: climate-smart, integrated and low-waste, without claiming the farm is fully organic.
+## Included improvements
+- Farm Today availability guide
+- Structured WhatsApp order generator for retail, bulk, stock notifications, training and partnerships
+- Trust Centre and FAQs
+- Partners & Funders hub
+- Facebook/native website sharing
+- Existing product catalogue, circular-farm interaction, Knowledge Centre and SEO retained
+- Mobile-first layout and standalone critical styling
 
-## Deploy
-Upload all files and folders to the root of the existing GitHub repository, replacing the previous version. Commit the change and allow Cloudflare to redeploy. Then clear Cloudflare cache once and reload the website on phones.
+## WhatsApp
+Official number: +265 998 768 510. Customers are warned not to pay before confirmation.
+
+## Deployment
+Upload all files and folders to the root of the existing GitHub repository and commit. Cloudflare redeploys automatically. Purge cache after deployment.
+
+## Manual maintenance
+Update stock labels and the “Last reviewed” date in index.html whenever availability is reviewed. Do not publish unverified impact numbers.
