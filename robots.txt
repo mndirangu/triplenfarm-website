@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://www.triplenfarm.com/sitemap.xml
+Sitemap: https://triplenfarm.com/sitemap.xml

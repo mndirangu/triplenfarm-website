@@ -1,23 +1,19 @@
-# Triple N EcoSmart Farm — Deployment Package
+# Triple N EcoSmart Farm — Production Website v2
 
-Production domain: https://www.triplenfarm.com
+## Deploy
+Upload all files and folders in this directory to the root of the existing GitHub repository. Replace the old files, commit, and Cloudflare will deploy automatically.
 
-## Cloudflare Pages settings
-- Framework preset: None
-- Build command: leave blank
-- Build output directory: `/` or leave blank when the repository root contains `index.html`
-- Production branch: `main`
+## WhatsApp
+Configured as +265 998 768 510 in `assets/app.js` and page links.
 
-## Important launch edit
-Open `index.html` and replace:
+## Analytics placeholders
+Add the official snippets immediately before `</head>` in `index.html` after creating:
+- Google Analytics 4
+- Microsoft Clarity
+- Cloudflare Web Analytics
 
-`const WHATSAPP_NUMBER='';`
+## Updating products
+Edit the `PRODUCTS` array in `assets/app.js`. Stock values are `Available`, `Limited`, `Pre-order`, or `Enquire`.
 
-with the official Malawi WhatsApp number in international format without `+`, spaces, or the first zero, for example `265XXXXXXXXX`.
-
-## Files
-- `index.html` — complete website
-- `_redirects` — redirects apex domain to www and enables SPA fallback
-- `_headers` — security and cache headers
-- `robots.txt` and `sitemap.xml` — search-engine discovery
-- `site.webmanifest` — installable web-app metadata
+## Canonical domain
+The website uses `https://triplenfarm.com` as the canonical domain.
